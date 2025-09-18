@@ -1,0 +1,26 @@
+li{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 245, 154);
+    border: 10px solid rgb(172, 154, 0);
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+ul{
+    height: 900px;
+    width: 1000px;
+    display:flex;
+
+}
+
+.test{
+    align-items: start;
+    justify-content: space-between;
+}
+
