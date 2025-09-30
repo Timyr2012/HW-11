@@ -1,26 +1,70 @@
-li{
-    height: 300px;
-    width: 200px;
-    background-color: rgb(255, 245, 154);
-    border: 10px solid rgb(172, 154, 0);
-    padding: 0px 0px 0px;
-    margin: 0px 0px 0px;
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    background-color:#47acff;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
     list-style: none;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 10px;
-
+    margin:0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-ul{
-    height: 900px;
-    width: 1000px;
-    display:flex;
-
+.link{
+    display: block;
+    padding: 10px ;
+    text-decoration: none;
+    background-color: rgb(255, 243, 110);
+    color:black;
+    border: 5px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.test{
-    align-items: start;
+.link:hover{
+    background-color: greenyellow;
+    font-weight: 700;
+}
+
+.gallery{
+    background-color: beige;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 20px;
+}
+.gallery-item{
+    width: 350px;
+    height: 250px;
 }
 
+.more{
+    display: flex;
+    background-color: rgb(255, 235, 120);
+    padding: 20px 200px ;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin: 30px auto;
+    
+}
